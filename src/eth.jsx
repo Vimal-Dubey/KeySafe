@@ -2,11 +2,6 @@ import React, { useState, useEffect } from "react";
 import { mnemonicToSeed } from "bip39";
 import { Wallet, HDNodeWallet, ethers } from "ethers";
 import { SendMoneyPopup } from "./SendMoneyPopup";
-// import dotenv from 'dotenv';
-
-// dotenv.config();
-//Initialize provider
-// const provider = new ethers.JsonRpcProvider("https://mainnet.infura.io/v3/df4d2703bfc34a779192b415ac208255");
 
 
 
