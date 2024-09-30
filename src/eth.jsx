@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { mnemonicToSeed } from "bip39";
 import { Wallet, HDNodeWallet, ethers } from "ethers";
-import { SendMoneyPopup } from "./SendMoneyPopup";
+import { SendMoneyPopup } from "./sendmoneypopup";
 
 
 
