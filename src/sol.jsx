@@ -3,7 +3,7 @@ import { mnemonicToSeed } from "bip39";
 import { derivePath } from "ed25519-hd-key";
 import { Keypair, Connection, PublicKey, Transaction, SystemProgram } from "@solana/web3.js";
 import nacl from "tweetnacl";
-import { SendMoneyPopup } from "./SendMoneyPopup"; 
+import { SendMoneyPopup } from "./sendmoneypopup"; 
 
 
 
