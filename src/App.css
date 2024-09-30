@@ -1,0 +1,182 @@
+
+
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  height: 100vh; /* Ensures full viewport height */
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding is inside the element */
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 600px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+.mnemonic-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.mnemonic-input-group input[type="text"] {
+  flex: 1;
+}
+
+.mnemonic-input-group button {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.mnemonic-input-group button:hover {
+  background-color: #45a049;
+}
+
+.mnemonic-display {
+  margin-top: 20px;
+}
+
+.mnemonic-display h2 {
+  font-size: 1.8em;
+  color: #2e7d32;
+}
+
+.mnemonic-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mnemonic-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.mnemonic-word {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #e8f5e9;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  color: #333;
+}
+
+.copy-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.copy-button:hover {
+  background-color: #303f9f;
+}
+
+.copy-feedback {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #388e3c;
+}
+
+.create-wallet-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.create-wallet-button:hover {
+  background-color: #303f9f;
+}
+
+/* Styling for Ethereum Wallet */
+.wallet-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.wallet-button {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.wallet-button:hover {
+  background-color: #45a049;
+}
+
+.wallet-address {
+  background-color: #e8f5e9;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* Styling for Solana Wallet */
+.wallet-key {
+  background-color: #e8f5e9;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
