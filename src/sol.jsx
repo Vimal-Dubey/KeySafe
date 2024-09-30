@@ -3,12 +3,7 @@ import { mnemonicToSeed } from "bip39";
 import { derivePath } from "ed25519-hd-key";
 import { Keypair, Connection, PublicKey, Transaction, SystemProgram } from "@solana/web3.js";
 import nacl from "tweetnacl";
-import { SendMoneyPopup } from "./SendMoneyPopup"; // Ensure this component is adapted for Solana
-// import dotenv from 'dotenv';
-
-// dotenv.config();
-// const SOLANA_RPC_URL = "https://solana-mainnet.g.alchemy.com/v2/hLAInhtI9lD2IdMCY6LvvNSbYRkDBafY";
-// const connection = new Connection(SOLANA_RPC_URL);
+import { SendMoneyPopup } from "./SendMoneyPopup"; 
 
 
 
