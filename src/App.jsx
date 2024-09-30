@@ -220,10 +220,10 @@ const App = () => {
       <footer className="bg-gray-100 dark:bg-gray-900 text-center py-4 fixed bottom-0 ml-25">
   <p className="text-gray-800 dark:text-gray-400">
     Designed and Developed by Vimal
-    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="ml-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-300">
+    <a href="https://www.linkedin.com/in/vimal-dubey/" target="_blank" rel="noopener noreferrer" className="ml-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-300">
       <i className="fab fa-linkedin fa-lg"></i>
     </a>
-    <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer" className="ml-2 text-gray-800 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300">
+    <a href="https://github.com/Vimal-Dubey" target="_blank" rel="noopener noreferrer" className="ml-2 text-gray-800 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300">
       <i className="fab fa-github fa-lg"></i>
     </a>
   </p>
